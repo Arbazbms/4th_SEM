@@ -1,3 +1,5 @@
+/*Modified bubble sort which runs in the order of 'n' time for the best case*/
+
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
