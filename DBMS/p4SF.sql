@@ -72,6 +72,5 @@ insert into enrolled values(104,'DBMS');
 insert into enrolled values(105,'OS');
 
 /* Find the name of all the juniors(level - jr) who are enrolled in a class taught by somefname*/
-select sname , fname from student s,enrolled e,class c, faculty f where s.snum = e.snum  OR e.cname = c.cname  and f.fid = c.fid and f.fname = "DR KV" AND s.lvl = "JR" group by f.fname;
-
+select s.sname , f.fname from student s,enrolled e,class c, faculty f where s.snum = e.snum  AND e.cname = c.cname  AND f.fid = c.fid AND s.lvl = "JR";
  
