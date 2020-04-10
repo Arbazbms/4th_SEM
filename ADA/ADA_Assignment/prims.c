@@ -1,3 +1,4 @@
+/*a)Find Minimum Cost Spanning Tree of a given undirected graph using Prim’s algorithm.*/
 #include<stdio.h>
 #include<conio.h>
 int visited[10]={0},min,mincost=0,cost[10][10];
